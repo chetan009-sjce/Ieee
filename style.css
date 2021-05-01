@@ -1,0 +1,607 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.segment-two  h2::before{
+    content: '|';
+    color: red;
+    padding-right: 10px;
+}
+.segment-three h2::before{
+    content: '|';
+    color: red;
+    padding-right: 10px;
+
+}
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+}
+.client-area{
+    padding:20px 0 0;
+}
+.slick-sl{
+    margin: 0 20px;
+}
+.sl{
+    display: flex;
+}
+.con{
+    width:100%;
+    display: flex;
+}
+.slick-sl img{
+    width: 100%;
+}
+
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus{
+    outline: none;
+
+}
+
+.slick-sl{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-loading .slick-sl{
+    visibility: hidden;
+}
+
+.slick-sl img{
+    display: block;
+}
+
+.slick-initialized .slick-sl{
+    display: block;
+}
+.count-sec{
+    padding: 40px 0;
+    width: 100%;
+    background: linear-gradient(90deg,rgb(106, 248, 253),rgb(248, 2, 14));
+}
+
+.inner-wid{
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+}
+.col{
+    flex: 1;
+    
+   text-align: center;
+}
+.col i{
+    color: black;
+    font-size: 40px;
+}
+.num{
+    font-size: 50px;
+    margin: 20px 0;
+}
+.fest{
+    width:400px;
+    height:300px;
+    border-radius:20px;}
+    .cul{width:400px;
+    height:600px;
+    border-radius:20px;}
+    .wild{width:400px;
+    height:600px;
+    border-radius:20px;}
+    .heri{width:400px;
+    height:600px;
+    border-radius:20px;}
+    .swee{width:400px;
+    height:600px;
+    border-radius:20px;}
+    .grand{width:400px;
+    height:600px;
+    border-radius:20px;}
+    .spir{width:400px;
+    height:600px;
+    border-radius:20px;}
+    .tran{
+    margin:left;
+    width:400px;
+    height:600px;
+    border-radius:20px;
+    }
+section img{
+    margin-top: 6px;
+    margin-left: 5px;
+    width:60vh;
+    height:58vh ;
+    position: left;
+}
+
+
+section{
+    position: relative;
+    width: 150vh;
+    height:60vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background: rgb(208, 211, 214);
+    color: black;
+
+}
+section p{
+    max-width: 90%;
+}
+
+
+section .content{
+    max-width: 60%;
+    
+}
+
+
+/*
+section .content h2{
+    position: relative;
+    font-family: 'Ultra', serif;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size:3em;
+    transition: 10s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+section .content h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: cyan;
+    transition: 0.5s;
+    transform-origin: right;
+
+}
+*/
+
+/*
+.container{
+    margin: 0;
+   margin-top: 10px;
+   margin-left: 0;
+   margin-bottom: 0;
+   margin-right: 10px;
+   
+ width: 200vh;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: black;
+   /* -webkit-background-size:cover;
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 50vh;*/
+   
+  
+/*
+
+.slider{
+    position: relative;
+  
+  width: 100%;
+    overflow: hidden;
+   /* width: 1850px;
+    height: 940px;
+  /*  min-height: 100vh;*/
+  /* display: flex;/*
+    justify-content: center;
+    align-items: flex-end;*/
+   
+    
+/*
+.slides{
+   
+    height: 500px;
+ width: 100%;
+   display: flex;
+   
+    
+}
+
+.slides input{
+    display: none;
+   
+
+}
+.slide{
+   /* width: 0%;
+    transition: 2s;
+   left: 0;
+    width: 100%;
+   
+}
+.slide img{
+
+    height: 400px;
+    width: 100%;/*transition:all 2s ease;
+   height: 1000px;
+   width: 1900.5px;
+    border-radius: 10px;
+    left: 0;
+   
+}
+/*
+
+
+.slider .slide img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*//*
+.slider .slide{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 00.5s;
+    z-index: 1;
+    clip-path: circle(0px at center);
+}
+
+.slider input[type="radio"]:checked + .slide{
+    z-index: 10;
+    clip-path: circle(1000px at center);
+}
+.slider{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #000;
+}*//*
+
+.navigation-manual{
+    position: relative;
+  
+    width: 800px;
+    margin-top: -155px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.manual-btn{
+    border: 2px solid rgb(45, 214, 226);
+    padding: 5px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+    transition: 4s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+background: rgb(45, 214, 226)
+
+;
+}
+.manual-btn:active{
+    background: rgb(45, 214, 226)
+    
+    ;
+    }
+    
+#radio1:checked ~.first{
+
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+
+    margin-left: -100%;
+}
+#radio3:checked ~.first{
+
+    margin-left: -200%;
+}
+#radio4:checked ~.first{
+
+    margin-left: -300%;
+}
+#radio5:checked ~.first{
+
+    margin-left: -400%;
+}
+
+.navigation-auto{
+    
+       
+    
+    position:relative;
+    width: 800px;
+    margin-top: 845px;
+    margin-left: 519px;
+    display: flex;
+    justify-content: center;
+   
+}
+.navigation-auto div{
+    position: relative;
+    border:2px solid  rgb(45, 214, 226);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 3s;
+
+}
+.navigation-auto div:not(last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: rgb(45, 214, 226);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: rgb(45, 214, 226);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: rgb(45, 214, 226);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: rgb(45, 214, 226);
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: rgb(45, 214, 226);
+}*//*
+.slider .slide .text1{
+   position:  relative;
+   top: 170px;
+   margin-left:500px ;
+    border-radius: 5px;
+    text-shadow: white;
+    font-size: 50px;
+    
+}
+.slider .slide .text2{
+    position:  relative;
+    top: 100px;
+    margin-left:100px ;
+     border-radius: 5px;
+     text-shadow: white;
+     
+ }
+ .slider .slide .text3{
+    position:  relative;
+    top: 150px;
+    font-size: 70px;
+    margin-left:800px;
+    
+     border-radius: 5px;
+     text-shadow: white;
+     
+ }
+ .slider .slide .text4{
+    position:  relative;
+    top: 120px;
+    margin-left:300px ;
+     border-radius: 5px;
+     text-shadow: white;
+     text-underline-position: below;
+     
+ }
+ .slider .slide .text5{
+    position: relative;
+    top: 170px;
+    margin-left:300px ;
+     border-radius: 5px;
+     text-shadow: white;
+     
+ }
+ 
+ /*
+ .slider input[type="radio"]{
+position: relative;
+z-index:1000;
+margin: 5px;
+margin-bottom: 40px;
+outline: none;
+cursor: pointer;}
+*/
+    
+ /*
+.pics
+.slide .text1 span{
+    color:rgb(40, 228, 228);font-size: 60px;font-weight: bold;letter-spacing: 3px;font-family: 'Monoton', cursive;
+}
+
+.slide .text2 span{
+    color:red;font-size: 60px;font-weight: lighter;letter-spacing: 3px;font-family: 'Black Ops One', cursive;
+}
+.slide .text2 h3{
+    color:white;font-size: 20px;letter-spacing: 1px;
+
+}
+
+.slide .text3 span{
+    color:rgb(10, 247, 235);font-size: 60px;font-weight: bold;letter-spacing: 3px;font-family: 'Black Ops One', cursive;
+}
+
+.slide .text4 span{
+    color:rgb(10, 10, 10);font-size: 60px;letter-spacing: 3px;font-family: 'Bungee Inline', cursive;
+}
+.slide .text3 h4{
+    color: whitesmoke;font-size: 30px;font-weight: lighter;letter-spacing: 1px;
+}
+.slide .text4 h2{
+    color:rgb(235, 220, 235);font-size: 30px;font-weight: lighter;letter-spacing: 1px;
+}
+
+.slide .text5 span{
+    color:rgb(53, 243, 243);font-size: 50px;letter-spacing: 3px;font-family: 'Monoton', cursive;
+}
+.slide .text5 h1{
+    color:rgb(245, 244, 244);font-size: 40px;font-weight: lighter;letter-spacing: 1px;
+}
+.slide .text1 h1,.h2{
+    color:whitesmoke;font-size: 40px;font-weight: lighter;letter-spacing: 1px;
+}
+*/
+/*
+.text1{
+width:600px;
+position: absolute;
+top: 200px;
+left:100px;
+color:white;}
+.text1 h2{
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+
+.text1 h3{
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+.text1 span{
+    background: red;
+    height: 1px;
+    width:100px;
+    position: absolute;
+    left:0;
+}/*
+.slide1{
+    animation: slide1 5s linear infinite;
+}
+.slide2{
+    animation: slide2 5s linear infinite;
+}
+.slide3{
+    animation: slide3 5s linear infinite;
+}
+.slide4{
+    animation: slide4 5s linear infinite;
+}
+.slide5{
+    animation: slide5 5s linear infinite;
+}
+/*
+@keyframes slide1{
+0%{
+    visibility: visible;
+    }
+25%{
+    visibility: hidden;
+}
+50%{
+    visibility: hidden;
+}
+75%{
+    visibility: hidden;
+}
+
+100%{
+    visibility: hidden;
+}
+}
+
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+        }
+    25%{
+        visibility: visible;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+   
+    100%{
+        visibility: hidden;
+    }
+    }
+    @keyframes slide3{
+    0%{
+        visibility: hidden;
+        }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+   
+    100%{
+        visibility: hidden;
+    }
+    }
+    @keyframes slide4{
+    0%{
+        visibility: hidden;
+        }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+   
+    100%{
+        visibility: hidden;
+    }
+    }
+    @keyframes slide5{
+    0%{
+        visibility:hidden;
+        }
+    25%{
+        visibility: hidden;
+    }
+    
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+  
+    }

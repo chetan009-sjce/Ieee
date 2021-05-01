@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!..bootstrap>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!..font awesome>
+    <link rel="stylesheet" href="css/all.min.css">
+    
+     <!..google fonts>
+     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ultra&display=swap" rel="stylesheet">
+
+    <!..custom css>
+    <link rel="stylesheet" href="css/custom.css">
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css1.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css">
+   
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <title>IEEE-SJCE</title>
+</head>
+<body>
+  <style>
+   
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+      
+    }
+  </style>
+  <nav  class="navbar navbar-expand-sm navbar-custom pl-5 fixed-top">
+    <a href="index.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1JK1TqT5-4gAY4BMz3eZTLRXmLjVMmFlB6gsib-Yke7PR6Ym0WrPaLffJFnnBJeDepLo&usqp=CAU" border-radius="100px" width="50px" height="50px"></a>
+  
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"> <i class="fas fa-bars" style="color:rgb(41, 206, 247); font-size:28px;"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="myMenu">
+    <ul class="navbar-nav custom-nav">
+  
+ 
+            <li class="nav-item active"><a href="index.html" class="nav-link active">    HOME   </a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"> BOARDS </a>
+               <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="#"><i class="fas fa-border-style"></i>&nbsp;&nbsp;Web dev board</a>
+                 <a class="dropdown-item" href="#"><i class="fas fa-edit"></i>&nbsp;&nbsp;Editorial board</a>
+                </div>
+               </li>
+               <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">SOCITIES </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a  class="dropdown-item"href="#"><i class="fas fa-user-graduate"></i>&nbsp;&nbsp;STUDENT BRANCH</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-microscope"></i>&nbsp;&nbsp;ELECTRON DEVICE SOCIETY</a>
+                <a  class="dropdown-item"href="#"><i class="fas fa-female"></i>&nbsp;&nbsp;WOMEN ENG SOCIETY</a>
+                <a  class="dropdown-item"href="#"><i class="fas fa-robot"></i>&nbsp;&nbsp;ROBOTICS SOCIETY</a>
+                 </div>
+                </li>
+              
+                <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">TEAM </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a  class="dropdown-item"href="#"><i class="fas fa-reply-all"></i>&nbsp;&nbsp;EXECUTIVE COMMITEE</a>
+              <a  class="dropdown-item" text-left href="#"><i class="fas fa-pencil-ruler"></i>&nbsp;&nbsp;MEMBER DEV COMMITEE</a>
+              <a class="dropdown-item" href="#"><i class="far fa-window-restore"></i>&nbsp;&nbsp;BOARDS</a>
+              <a  class="dropdown-item"href="#"><i class="fas fa-users"></i>&nbsp;&nbsp;TEAMS</a>
+                   </div>
+                  </li>
+         
+                  <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">CONTACT </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item"href="#"><i class="fab fa-instagram"></i>&nbsp;&nbsp;INSTAGRAM</a>
+            <a class="dropdown-item"href="#"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;FACEBOOK</a>
+            <a class="dropdown-item"href="#"><i class="fab fa-twitter"></i>&nbsp;&nbsp;TWITTER</a>
+            <a class="dropdown-item"href="#"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;LINKED IN</a>
+                     </div>
+                    </li>
+        
+                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">GALLERY </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"href="#"><i class="fas fa-images"></i>&nbsp;&nbsp;IMAGES/VIDEOS </a>
+                       
+                       </div>
+                      </li>
+          
+                      <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">FESTS </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#"><i class="fab fa-free-code-camp"></i>&nbsp;&nbsp;CYBERIA</a>
+                          <a  class="dropdown-item"href="#"><i class="fas fa-code"></i>&nbsp;&nbsp;TUXEDO</a>
+                         </div>
+                        </li>
+
+            </div>
+
+    <div data-text="IEEE_SJCE" class="last">IEEE-SJCE</div>
+
+</ul></nav>
+  <br><br>
+ 
+
+  
+    <div class="slider">
+        <div class="myslider fade" style="display: block;">
+            <div class="txt">
+            <h2> Welcome to <span style="font-size: 50px;">IEEE-SJCE</span></h2>
+            <h1>Experience the joy of learning with IEEE-SJCE! </h1></div>
+            <img src="1.jpg.jpg" style="width: 100%; height: 100%;">
+        </div>
+
+
+       
+        
+        
+        
+        <div class="myslider fade">
+            <div class="txt"><h1>GREAT</h1>
+              <span  style="font-size: 50px;">PERFORMANCE</span>
+              <h4> A driven team that endures challenges for the</h4>
+              <h4>overall wellbeing and development of the club</h4></div>
+            <img src="3.jpg.jpg" style="width: 100%; height: 100%;">
+        </div> <div class="myslider fade">
+            <div class="txt">
+              <span style="font-size: 50px;">TECH-KNOW-LOGY</span>
+              <h2 style="font-size: 20px;">To adapt growth and development in the techarena,several hands-on</h2>
+              <h2  style="font-size: 20px;">workshops are carried on.</h2></div>
+            <img src="4.jpg.jpg" style="width: 100%; height: 100%;">
+        </div> 
+        
+        <div class="myslider fade">
+          <div class="txt">
+            <span style="font-size: 50px;">IEEE-SJCE</span>
+            <h3>IEEE is a global community to innovate for a better tommorow and is a</h3>
+            <h3>trusted voice for engineering and technology around the globe..</h3></div>
+          <img src="2.jpg.jpg" style="width: 100%; height: 100%;">
+      </div> 
+        
+        
+        
+        <div class="myslider fade">
+            <div class="txt">
+              <span style="font-size: 30px;">EQUALITY ENSURES THE</span>
+              <span style="font-size: 30px;">GROWTH PROWESS</span>
+              <h1>Women empowerment in all technical aspects is the goal of 'women in</h1>
+              <h1>engineering.'</h1></div>
+            <img src="5.jpg.jpg" style="width: 100%; height: 100%;">
+        </div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div class="dotsbox" style="text-align: center;">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+
+</div>
+</div>
+    </div>
+    <script>const myslide = document.querySelectorAll('.myslider'),
+      dot = document.querySelectorAll('.dot');
+      
+      let counter=1;
+      slidefun(counter);
+      
+      let timer=setInterval(autoslide, 5000);
+      function autoslide(){
+          counter += 1;
+          slidefun(counter);
+      }
+      function plusSlides(n){
+          counter += n;
+          slidefun(counter);
+          resetTimer();
+      }
+      function currentSlide(n){
+          counter=n;
+          slidefun(counter);
+          resetTimer();
+      }
+      function resetTimer(){
+          clearInterval(timer);
+          timer=setInterval(autoslide,5000);
+      }
+      
+      function slidefun(n) {
+          let i;
+          for(i=0;i<myslide.length;i++){
+              myslide[i].style.display="none";
+          }
+          for(i=0;i<dot.length;i++){
+              dot[i].classList.remove('active');
+          }
+          if(n > myslide.length){
+              counter=1;
+          }
+          if(n<1){
+              counter=myslide.length;
+          }
+          myslide[counter-1].style.display="block";
+          dot[counter-1].classList.add('active');
+      
+      }
+    </script>
+
+  <br><br>
+    
+
+<div class="c1">
+   
+        <h3 class="text-center" font-size="5px">EVENTS</h3>
+        </div><div class="c2">
+        <p class="text-center" >IMAGINE! INNOVATE!! INSPIRE!!! </p><br>
+</div>
+    <div class="c3"><p class="text-center">IEEE-SJCE conducts many events regularly for students to gain</p>
+        <p class="text-center">knowlegde and encourages them to take active part in all of them...</p>
+    </div>
+
+</div>
+<br>
+
+
+
+<div class="jumbotron bg-white">
+
+ 
+  <div class="cont text-center border-bottom" id="Services">
+   
+    <div class="row mt-4">
+        <div class="col-sm-6 mb-4"data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+          <img class="tran" src="19.jpg">
+         
+        </div>
+        <div class="col-sm-5 mb-4"data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500" style="background-color: rgb(158, 243, 243);">
+          <h2 >MEMBERSHIP DRIVE 2021
+          </h2><br><br>
+          <p data-aos="fade" data-aos-duration="4000" data-aos-delay="800" style="font-size: 20px; font-family:'Black Ops One', cursive;">Members will get an opportunity to attend various<br> webinars, workshops, conferences and <br>forums that occurs worldwide and will have access<br> to IEEE Xplore digital library, newsletters, various <br>journals and magazines and much more<br>
+            Payment details:<br>
+            Scan the UPI QR code given in the registration form<br> or Send using UPI ID: 7907015473@ybl or phonepe to the same number !!<br>
+            Register yourselves to be a part of IEEE-SJCE, to learn,<br> create and explore by clicking on the link icon below.
+           
+             <br><br>
+          <center> <div class="col-md-4"> <!-- start 1st column -->
+            <span class="pr-2">Follow Us:</span>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-google-plus-g"></i></a>
+           
+           
+            </p></div>
+          </center></div>
+      
+      <div class="col-sm-6 mb-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+        <img class="tran" src="18.jpg">
+       
+      </div>
+      <div class="col-sm-5 mb-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" style="background-color:  rgb(158, 243, 243);">
+        <h2>SNAP CIRCUIT WORKSHOP</h2><br><br>
+        <p   style="font-size: 20px; font-family:'Black Ops One', cursive; ">▪️Get an idea of basic electronic components and build circuits using them.<br>
+          ▪️Learn the basics of breadboard connections.<br>
+          ▪️Get hands-on experience by rigging up the circuits.<br>
+          Entry fee:<br>
+          IEEE Members : FREE<br>
+          Non IEEE Members: INR 50<br>
+          
+          Date: 19th March - 5:30 PM<br>
+          20th March - 2.30PM
+          Venue: NPS 001<br>
+          Get yourself registered with the link below :<br><br><br>
+         <center><div class="col-md-4"> <!-- start 1st column -->
+            <span class="pr-2">Follow Us:</span>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-google-plus-g"></i></a>
+           
+          </div></center> </p>
+
+
+      </div>
+       
+      </div></div>
+     
+       
+    </div>
+</div><!..end service>
+
+
+<center>
+
+  
+       <div data-aos="fade"data-aos-duration="2000" data-aos-delay="800" class="jumbotron bg-white">
+       
+        <h1 style=" border:5px solid; border-radius: 10px;font-size:30px; color: darkturquoise;">WHAT WE SATAND FOR!!!</h1>
+        <h2 style="font-size: 20px; color: dimgrey;">IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.<br>
+           IEEE SJCE and its members inspire a global community through its highly cited workshops, seminars, professional and educational activities.</h2>
+            <br><br>
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"class="row mt-10">
+                <div class="col-lg-3 col-sm-6"> <!-- Start 1st Column -->
+                    <div class="card shadow-lg mb-2"> 
+                      <div class="card-body" text-center>
+                      
+                        <i class="fab fa-megaport fa-2x text-info"></i><h4 style="font-family:'Black Ops One', cursive;">WORKSHOPS</h4>
+                        <p class="card-text" >
+                          IEEE-SJCE conducts various workshops to give hands-on experience. The major workshops conducted are :
+                          VPM, Soldering and Etching, Robotics..</p>
+                      </div>  
+                    </div>       
+             </div><!-- End 1st Column -->
+             <div class="col-lg-3 col-sm-6"> <!-- Start 1st Column -->
+              <div class="card shadow-lg mb-2"> 
+                <div class="card-body" text-center>
+                  
+                  <i class="fas fa-atlas fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">COMPETETIONS</h4>
+                  <p class="card-text">IEEE-SJCE conducts many competitions during its technical fests-TUXEDO and CYBERIA. Some of the competitions are :
+                    Amaze, Fury road and coding owl.</p>
+                </div>  
+              </div>       
+       </div><!-- End 1st Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 2nd Column -->
+      <div class="card shadow-lg mb-2"> 
+        <div class="card-body" text-center>
+           
+          <i class="fas fa-chart-line fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">MAGAZINES</h4>
+           <p class="card-text">We publish three editions of the IEEE Interface magazine, every year :
+            The Orientation edition, The Tuxedo edition, The Cyberia Edition.</p>
+       </div>       
+    </div>
+</div>   <!-- End 2nd Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+   
+      <i class="far fa-eye fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">SEMINARS</h4>
+      <p class="card-text">IEEE-SJCE conducts many technical talks, seminars and panel discussions during its technical fests. PAPYRUS encourages students to write technical papers.</p>
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 3rd Column -->
+      <div class="card shadow-lg mb-2"> 
+            <div class="card-body" text-center>
+               
+              <i class="fas fa-users fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">ACTIVITIES</h4>
+                <p class="card-text">There are a lot of technical and non technical activities that are undertaken here at IEEE to encourage students to learn in a way which inspires them to do so..</p>
+            </div>       
+       </div>
+    </div>   <!-- End 3rd Column -->
+    <div class="col-lg-3 col-sm-6"> <!-- Start 1st Column -->
+      <div class="card shadow-lg mb-2"> 
+        <div class="card-body" text-center>
+          
+          <i class="fas fa-align-center fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">LEARNING</h4>
+          <p class="card-text">ohh yea !!
+          in my life , it wa better than . thank you so much XD.IEEE-SJCE conducts many technical talks, seminars and panel discussions its technical fests.</p>
+        </div>  
+      </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 4th Column -->
+  <div class="card shadow-lg mb-2"> 
+        <div class="card-body" text-center>
+           
+           
+          <i class="fas fa-arrows-alt fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">PERSONALTY DEV</h4>
+            <p class="card-text">Soft skills are one of the most important attributes in todays world. We at IEEE aspire to inculcate values that define us as people who are ethically adept and vision.</p>
+        </div>       
+    </div>
+</div>   <!-- End 4th Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      
+      
+      <i class="fab fa-angrycreative fa-2x text-info"></i><h4  style="font-family:'Black Ops One', cursive;">CREATIVITY</h4>
+      <p class="card-text">ohh yea !! the best service i ever had
+      in my life , it wa better than i expected. thank you so much XD.Soft skills are one of the most important attributes in world</p>
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+</div>  
+  </div>
+</div>      <!-- End Happy Customer -->
+
+</div>
+
+
+</center>
+
+
+<div class="jumbotron bg-white">
+<center><div class="conte" style="background: rgb(7, 7, 7);">
+ <center> <br><br><h1>MILESTONE-EVENTS!!!</h1><br><br><br>
+  </center></div></center>
+  <div class="cont text-center border-bottom" id="Services">
+   
+    <div class="row mt-4">
+        <div class="col-sm-4 mb-4"data-aos="fade-right"data-aos-duration="1000" data-aos-delay="800" >
+          <img class="tran" src="11.jpg">
+          <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+        </div>
+        <div class="col-sm-4 mb-4"data-aos="fade-right"data-aos-duration="2000" data-aos-delay="800" >
+          <img class="tran" src="12.jpg">
+          <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+      </div>
+        <div class="col-sm-4 mb-4"data-aos="fade-right"data-aos-duration="3000" data-aos-delay="800" >
+          <img class="tran" src="17.jpg">
+          <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+        </div>
+        <div class="col-sm-4 mb-4"data-aos="fade-left"data-aos-duration="1000" data-aos-delay="800" >
+          <img class="tran" src="14.jpg">
+          <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+      </div>
+      <div class="col-sm-4 mb-4"data-aos="fade-left"data-aos-duration="2000" data-aos-delay="800" >
+        <img class="tran" src="15.jpg">
+        <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+      </div>
+      <div class="col-sm-4 mb-4"data-aos="fade-left"data-aos-duration="3000" data-aos-delay="800" >
+        <img class="tran" src="16.jpg">
+        <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+    </div>
+       
+    </div>
+</div><!..end service>
+</div>
+<center>
+<div class="jumbotron bg-white">
+  <center><h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 60px; color: rgb(4, 22, 73); font-weight: bolder;">PRAYAS</h1>
+    <p style="color: rgb(102, 108, 109); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bolder;">
+      PRAYAS is an outreach program by IEEE SJCE WIE that provides in <br>equitable education outcomes to the underprivileged children.<br>
+       The volunteers visited one Orphanage on a weekly basis to interact <br>with the students there and help them out in their academic activities.</p></center><br><br>
+<div class="cont text-center border-bottom" id="Services">
+  <div class="row mt-2">
+    <div class="col-sm-3 mb-4" style="text-align: right;" >
+     <h1 style="font-stretch: wider; color: rgb(10, 238, 238);"> ABOUT PRAYAS          <i class="far fa-heart fa-1x"></i></h1>
+     <P style="font-weight: bold; color: slategrey;">
+      ▪An effort by our team to provide under privileged a positive learning environment that will help them unleash their potential.<br>
+      ▪ This includes frequent visits to Divya Deepa and Vijaya Educational Institution.
+      <br><br><br>
+      <h1 style="font-stretch: wider; color: rgb(10, 238, 238); font-size: 30px;"> WHAT WE DO IN PRAYAS  <i class="fab fa-accusoft fa-1x "></i></h1><p style="font-weight: bold; color: slategrey;">
+      ▪ Support in academics.<br>
+      ▪ Introduce fun learning techniques.<br>
+      ▪ Aim to achieve overall development</P></P>
+     
+    </div>
+    <div class="col-sm-6 mb-4" >
+      <video controls>
+        <source src="video.mp4.mp4" type="video/mp4">
+      </video>
+      <h1 style="font-weight: bolder; font-size: 40px; color: rgb(33, 148, 241);">IEEE-SJCE</h1>
+    </div>
+    <div class="col-sm-3 mb-4" style="text-align: left;">
+     <p > <h1 style="font-stretch: wider; color: rgb(10, 238, 238);">  <i class="fas fa-question fa-1x"></i>          WHY PRAYAS</h1><p style="font-weight: bold; color: slategrey;">
+      ▪Work satisfaction and provides an oppurtunity to hone your social skills. A good start to serve the society<br>
+      ▪ This includes frequent visits to Divya Deepa and Vijaya Educational Institution.</p><br>
+      <h1 style="font-stretch: wider; color: rgb(10, 238, 238);">  <i class="far fa-check-circle fa-1x"></i>        WORK DONE</h1><p style="font-weight: bold; color: slategrey;">
+      ▪ Volunteering session at Rangarao Memorial School for Disabled.<br>
+      ▪ Charity work at S S Manoj Seva Trust<br>
+      ▪ Aim to spread social awareness.</p></p>
+     
+    </div>
+</div></div></div></center>
+
+<div class="ach"><br><br>
+  <i  style="color: ghostwhite;" class="fas fa-jedi fa-4x"></i>
+  <h1 style="font-weight: bolder; color: seashell;">    ACHIEVEMENTS!!</h1>
+  <br><br>
+  <p style="font-weight: bold; color: ghostwhite; font-family:Georgia, 'Times New Roman', Times, serif;">   <i class="fas fa-star-half-alt fa-1x"></i> " The Best Student Branch Website Award " - IEEE Bangalore Section 2019<br><br>
+
+    <i class="fas fa-star-half-alt fa-2x"></i>" The Best Student Branch Website Award " - IEEE Bangalore Section 2017<br><br>
+   
+    <i class="fas fa-star-half-alt fa-3x"></i>" The Best Student Branch Website Award " - IEEE Bangalore Section 2016.<br>
+   
+    One of the nominees for best practices</p><br><br>
+</div>
+
+<div class="middle">
+  <div class="count-sec">
+  <center>  <div class="inner-wid">
+      <div class="col">
+        <i class="fas fa-map-signs fa-3x"></i>
+        <div class="num">29</div>
+        <h1 style="font-size: 20px;font-weight: bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(4, 22, 73);">YEARS OF EXPERIENCE</h1>
+      </div>
+      <div class="col">
+<i class="fas fa-user fa-3x"></i>
+        <div class="num">177</div>
+        <h1 style="font-size: 20px; font-weight:bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(4, 22, 73);">MEMBERS</h1>
+      </div>
+      <div class="col">
+<i class="fas fa-layer-group fa-3x"></i>
+        <div class="num">550</div>
+        <h1 style="font-size: 20px;font-weight: bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(4, 22, 73);">PROJECTS</h1>
+      </div>
+      <div class="col">
+        <i class="far fa-clock fa-3x"></i>
+        <div class="num">25</div>
+        <h1 style="font-size: 20px;font-weight: bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(4, 22, 73);">ACTIVITIES EACH SEM</h1>
+      </div>
+    </div></center>
+  </div>
+</div>
+<script type="text/javascript">
+$(".num").counterUp({delay:10,time:1000});
+</script>
+
+<center>
+<div data-aos="fade"data-aos-duration="2000" data-aos-delay="800" class="jumbotron bg-white">
+       <div class="conte1" style="background: darkslategrey;"><br><br>
+  <h1 style=" border:4px dashed; border-radius: 20px; border-color:rgb(151, 243, 243);font-size:50px; color: darkturquoise;">IEEE BANGALORE SECTION<br></h1><br><br></div><br><br>
+  <h2 style="font-size: 20px; color: rgb(102, 102, 102);"> 
+    IEEE-SJCE has been successfully recognized by IEEE Bangalore section for completing its Silver Jubilee in flying colours.<br> We have also been able to bag the best website award two times in a row.</h2>
+      <br><br>
+      <div class="row mt-10" style="background:  linear-gradient(90deg,rgb(246, 248, 128),white);;">
+          <div class="col-lg-4 col-sm-6"> <!-- Start 1st Column -->
+             
+                
+            <i class="fas fa-chalkboard-teacher fa-3x text-info"></i><br><br><h4> HAC-SAC 1.0 VIRTUAL HACK-A-THON</h4>
+                  <p class="card-text" style="font-weight: bold; color: grey; text-align: center;">
+                   
+                    Student Activities Committee, IEEE Bangalore<br> Section in collaboration with IEEE SIGHT is organising <br>a hackathon! It's free, and it's for everyone.<br>
+                    Eligible Participants- IEEE Members<br>
+                    Categories: Agriculture and Healthcare,<br>
+                    Last date to register : 20th October 2020<br>
+                    Cash Prizes: 10k, 7.5k and 5k for top three winners.<br></p>
+                    <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Register Now</button>
+       </div><!-- End 1st Column -->
+       <div class="col-lg-4 col-sm-6"> <!-- Start 1st Column -->
+      
+            
+            <i class="fas fa-code fa-3x text-info"></i><br><br><h4>IEEE XTREME MOCK CODING CONTEST</h4>
+            <p class="card-text" style="font-weight: bold; color: grey;">
+              IEEE Bangalore Section presents IEEEXtreme <br>Mock Coding Contest-2. 
+              Eligibility: Participants who have <br>registered for IEEE XTREME 14.0 
+              When: 11th October 2020 Duration: <br>The contest will last for<br>
+               6hours 02:00 PM - 08:00 PM IST. <br>The first three winners will be
+                rewarded with a cash prize of INR<br> 2000, 1500 and 1000 respectively</p>
+                <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Enroll Now</button>
+            
+ </div><!-- End 1st Column -->
+ <div class="col-lg-4 col-sm-6"> <!-- Start 1st Column -->
+ 
+      
+      <i class="fas fa-meteor fa-3x text-info"></i><br><br><h4>WEBINARS BY WIE- BANGALORE SECTION</h4>
+      <p class="card-text" style="font-weight: bold; color: grey; text-align: center;" >
+        13 July 2020; Time: 7-8 pm- Title of talk: Leadership: <br>leading oneself in uncertaintimes. Speaker: Ms. Santoshi Kittur,<br> PwC | Managing Director Bangalore.<br>
+        15 July 2020; Time: 6-7 pm- Title of talk: AI Infusion <br>during COVID 19: The need and the solution. Speaker: <br>Ms.Geetha Adinarayan, Chief architect - AI applications<br> IBM India. Register Soon</p>
+        <button type="submit" class="btn btn-outline-info mt-2 font-weight-bold btn-block shadow-sm">Click here</button>
+</div><!-- End 1st Column -->
+</div></div></center>
+
+
+
+<div class="jumbotron bg-grey">
+  <div class="containr">
+      <h2 class="text-center" style="font-weight: bolder; color: rgb(10, 224, 252);">OUR MENTORS</h2>
+      <h5 style="font-weight: bold; text-align: center;" > Mentors guide and support us to conduct all events</h5>
+      <div class="row mt-5">
+          <div class="col-lg-3 col-sm-6"> <!-- Start 1st Column -->
+              <div class="card shadow-lg mb-2"> 
+                <div class="card-body" text-center>
+                  <img src="avt3.jpg" class="img-fluid"
+                  style="border-radius: 100px;"alt="avt1">
+                <center><h4 class="card-title">DR. M G VEENA</h4>
+                  <p class="card-text">BRANCH COUNCELLOR</p>
+                  <a href="#"><i class="fas fa-envelope text-success fa-2x"></i></a></center>
+                </div>  
+              </div>       
+          
+      
+  
+           </div><!-- End 1st Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 2nd Column -->
+<div class="card shadow-lg mb-2"> 
+  <div class="card-body" text-center>
+     <img src="avt4.jpg" class="img-fluid"
+     style="border-radius: 100px;"alt="avt1">
+    <center> <h4 class="card-title">DR SUDARSHAN PK</h4>
+     <p class="card-text">R A S ADVISOR</p>
+     <a href="#"><i
+            class="fas fa-envelope text-success fa-2x"></i></a></center>
+ </div>       
+</div>
+</div>   <!-- End 2nd Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 3rd Column -->
+<div class="card shadow-lg mb-2"> 
+      <div class="card-body" text-center>
+          <img src="avt1.jpg" class="img-fluid"
+          style="border-radius: 100px;"alt="avt1">
+        <center> <h4 class="card-title">DR S B RUDRASWAMI</h4>
+          <p class="card-text">EDS ADVISOR.</p>
+          <a href="#"><i
+            class="fas fa-envelope text-success fa-2x"></i></a></center>
+      </div>       
+ </div>
+</div>   <!-- End 3rd Column -->
+<div class="col-lg-3 col-sm-6"> <!-- Start 4th Column -->
+<div class="card shadow-lg mb-2"> 
+      <div class="card-body" text-center>
+          <img src="avt2.jpg" class="img-fluid"
+          style="border-radius: 100px;"alt="avt1">
+        <center> <h4 class="card-title">MR SHASHIDHAR R</h4>
+          <p class="card-text">SBMDC ADVISOR</p>
+          <a href="#"><i 
+            class="fas fa-envelope text-success fa-2x"></i></a></center>
+      </div>       
+  </div>
+</div>   <!-- End 4th Column -->
+</div>  
+</div>
+</div>      <!-- End Happy Customer -->
+<div class="jumbotron bg-white" >
+  <h2 style="text-align: center; font-weight: bold; font-size: 50px;">OUR SPONSORS</h2> <marquee behavior=slide direction=up style="display: flex;">
+  
+   
+    <center><div class="row mt-2" style="text-align: center;">
+  
+    
+      <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+          <div class="card shadow-lg mb-2"> 
+            <div class="card-body" text-center>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDe9f-XCC9fFh6d3aDY57FlzkVNtf7G3wqkA&usqp=CAU" class="img-fluid"
+              style="border-radius: 100px;"alt="avt1">
+         
+            </div>  
+          </div>       
+       </div><!-- End 1st Column -->
+       <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+        <div class="card shadow-lg mb-2"> 
+          <div class="card-body" text-center>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5zYxAwO_LtsQB03516_lFwJaz6Kcu6jl9Q&usqp=CAU" class="img-fluid"
+            style="border-radius: 100px;"alt="avt1">
+       
+          </div>  
+        </div>       
+     </div><!-- End 1st Column -->
+     <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+      <div class="card shadow-lg mb-2"> 
+        <div class="card-body" text-center>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR_8BHByJknwHFf30cOiTwSYDjN9HCOet5hg&usqp=CAU" class="img-fluid"
+          style="border-radius: 100px;"alt="avt1">
+     
+        </div>  
+      </div>       
+   </div><!-- End 1st Column -->
+   <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+    <div class="card shadow-lg mb-2"> 
+      <div class="card-body" text-center>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDe9f-XCC9fFh6d3aDY57FlzkVNtf7G3wqkA&usqp=CAU" class="img-fluid"
+        style="border-radius: 100px;"alt="avt1">
+   
+      </div>  
+    </div>       
+ </div><!-- End 1st Column -->
+   <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+    <div class="card shadow-lg mb-2"> 
+      <div class="card-body" text-center>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6evtBd1fo57dpD-zwgxckyWhDPsE4JEhFlg&usqp=CAU" class="img-fluid"
+        style="border-radius: 100px;"alt="avt1">
+   
+      </div>  
+    </div>       
+ </div><!-- End 1st Column -->
+ <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5zYxAwO_LtsQB03516_lFwJaz6Kcu6jl9Q&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+ <div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbAk4DhKpMXOd5r6x1MQgxCEf5gl5zvd942w&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgD9ODx7-CtWEIO9vZEL2zLUkRQryatqheg&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDe9f-XCC9fFh6d3aDY57FlzkVNtf7G3wqkA&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5zYxAwO_LtsQB03516_lFwJaz6Kcu6jl9Q&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wNk1Dd1fZHB4lN5ywlG8rc3KW2yJLuk7JQ&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+<div class="col-lg-1 col-sm-6"> <!-- Start 1st Column -->
+  <div class="card shadow-lg mb-2"> 
+    <div class="card-body" text-center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1V38mWEA-20W7hTPYsKCEWoejxA_DoK6rg&usqp=CAU" class="img-fluid"
+      style="border-radius: 100px;"alt="avt1">
+ 
+    </div>  
+  </div>       
+</div><!-- End 1st Column -->
+</div><!-- End 1st Column -->
+
+  
+    
+  </div></marquee></center></div>
+
+<footer><div class="footer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-one"><br><br><br><br>
+        <h2 style="color: cyan; font-size: 50px; font-weight: bold;">IEEE-SJCE</h2>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+        <h2 style="color: rgb(189, 188, 187); font-size: 20px;">CONTACT US</h2><br>
+        <p style="color: cornsilk; line-height: 25px;">
+          IEEE-SJCE student branch<br>
+Sri Jayachamarajendra College of Engineering<br>
+Mysuru, 570006<br><br>
+ Phone: +(91) 9902959866<br>
+ Email: ieeesjce2019@gmail.com<br>
+        </p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+        <h2 style="color: rgb(189, 188, 187); font-size: 20px;">IMPORTANT LINKS</h2><br>
+       <ul style="color: cyan; font-size: 14px;">
+         <li><a href="#">JSSSTU</a> </li>
+         <li><a href="#">IEEE.org</a> </li>
+         <li><a href="#">IEEE-WIE</li>
+         <li><a href="#">IEEE-XPLORE-DIGITAL-library</a> </li>
+         <li><a href="#">IEEE-STANDARDS</a> </li>
+         <li><a href="#">IEEE-EDS</a> </li>
+         <li><a href="#">IEEE-BANGLORE SECTON</a> </li>
+         <li><a href="#">IEEE-RAS</a> </li>
+        
+       </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+       <a href="#"><i class="fab fa-facebook-f fa-2x text-info"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><i class="fab fa-twitter fa-2x text-info"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><i class="fab fa-instagram fa-2x text-info"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#"><i class="fab fa-pinterest-p fa-2x text-info"></i></a><br><br>
+         
+        <p  style="color: cornsilk; line-height: 25px;">Follow our official instagram and facebook pages to get regular updates.</p><br><br><br>
+ <form action="">
+   <input  ; type="email" placeholder="E-MAIL">
+   <input  style="color:black; font-weight: 2px;" type="submit" value="Subscribe">
+ </form>
+      </div>
+    </div>
+  </div></div>
+</footer>
+<footer class="container-fluid bg-dark mt-2 ">
+  <div class="container">
+      <div class="row py-3">
+          <div class="col-md-6"> <!-- start 1st column -->
+            <span style="color: aqua;" class="pr-2">Follow Us:</span>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" class="pr-2 fi-color"><i
+            class="fab fa-google-plus-g"></i></a>
+          
+           
+          </div><!-- end of 1st column -->
+         
+            <div style="color: aqua; font-weight: 10px;" class="col-md-6 text-right"> <!-- Start 2nd Column -->
+             Designed by Chetan.007[Bobby] &copy; 2021
+            
+          </div> <!-- End 2nd Column -->
+   </div>
+  </div>
+</footer>
+    <!..js>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script> 
+   <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   
+   <script>
+     AOS.init();
+   </script>
+   
+</body>
+</html>
